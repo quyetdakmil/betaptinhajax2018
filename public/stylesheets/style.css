@@ -1,0 +1,22 @@
+#container {
+	font-size: 14pt;
+}
+#title{
+	color: green;
+	margin-left: 100px;
+}
+.inputtext
+{
+	width: 200px;
+}
+#noti{
+	color: red;
+	margin-left: 6px;
+}
+input:focus { 
+    background-color: yellow;
+}
+#note{
+	color: red;
+	margin-left: 8px;
+}

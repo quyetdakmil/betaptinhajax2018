@@ -1,0 +1,43 @@
+<div id="container">
+	<h1 id="title">BÉ TẬP TÍNH</h1>
+	<table>
+		<form action="" id="f" name="f">
+			<tr>
+				<td>
+					Số thứ nhất
+				</td>
+				<td>
+					<input type="text" class="inputtext" id="num1" name="num1" value="{{SoA}}">
+				</td>
+				<td>
+					<input type="radio" name="dau" value="+"> Cộng
+					<input type="radio" name="dau" value="-"> Trừ
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Số thứ hai
+				</td>
+				<td>
+					<input type="text" class="inputtext" id="num2" name="num2" value="{{SoB}}"">
+				</td>
+				<td>
+					<input type="radio" name="dau" value="*"> Nhân
+					<input type="radio" name="dau" value="/"> Chia
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Kết quả
+				</td>
+				<td>
+					<input type="text" id="result" name="result" class="inputtext" value="{{kq}}" readonly>
+				</td>
+				<td>
+					<button type="button" onclick="Check();">Tính</button>
+				</td>
+			</tr>
+		</form>
+	</table>
+	Thông báo <label id="note"></label>
+</div>
